@@ -39,7 +39,7 @@ kubeclient::generator::generate_client() {
     : "${PACKAGE_NAME?Must set PACKAGE_NAME env var}"
     : "${CLIENT_LANGUAGE?Must set CLIENT_LANGUAGE env var}"
 
-    SWAGGER_CODEGEN_COMMIT="${SWAGGER_CODEGEN_COMMIT:-v2.3.0}"
+    SWAGGER_CODEGEN_COMMIT="${SWAGGER_CODEGEN_COMMIT:-v2.2.3}"
 
     local output_dir=$1
     pushd "${output_dir}" > /dev/null
